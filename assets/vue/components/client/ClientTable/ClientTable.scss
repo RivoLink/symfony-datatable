@@ -1,0 +1,57 @@
+:global {
+    .rounded_button{
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+
+    .detail_button {
+        svg {
+            margin-top: -2px;
+        }
+    }
+
+    .edit_button {
+        svg {
+            width: 15px;
+            height: 20px;
+            margin-top: -4px;
+        }
+    }
+
+    .remove_button {
+        svg {
+            width: 15px;
+            height: 20px;
+            margin-top: -4px;
+        }
+    }
+
+    .size_wrapper {
+        display: flex; 
+        align-items: center;
+
+        select {
+            width: 66px;
+        }
+    }
+
+    .inline_input {
+        display: flex;
+        align-items: center;
+
+        span {
+            width: 123px;
+        }
+        input {
+            flex-grow: 1;
+        }
+    }
+  
+    .custom_spinner {
+        div {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}

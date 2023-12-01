@@ -30,6 +30,8 @@
         "path": "^0.12.7",
         "postcss-loader": "^7.3.3",
         "postcss-preset-env": "^9.3.0",
+        "pw-components-js-dev": "^0.1.23",
+        "pw-components-jsx-dev": "^0.0.31",
         "vue": "2",
         "vue-loader": "15"
     }
