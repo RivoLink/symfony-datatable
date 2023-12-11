@@ -1,0 +1,74 @@
+:global {
+    .rounded_button{
+        background-color: transparent;
+        border: none;
+        color: #515365;
+    }
+
+    .detail_button {
+        svg {
+            margin-top: -2px;
+        }
+    }
+
+    .edit_button {
+        svg {
+            width: 15px;
+            height: 20px;
+            margin-top: -4px;
+        }
+    }
+
+    .remove_button {
+        svg {
+            width: 15px;
+            height: 20px;
+            margin-top: -4px;
+        }
+    }
+
+    .size_wrapper {
+        display: flex; 
+        align-items: center;
+
+        select {
+            width: 10%;
+        }
+    }
+
+    .inline_input {
+        display: flex;
+        align-items: center;
+
+        span {
+            width: 123px;
+        }
+        input {
+            flex-grow: 1;
+        }
+    }
+
+    .action_button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .page-link {
+        &.next{
+            border-radius: 8px;
+        }
+    }
+
+    div.dataTables_wrapper {
+        div.dataTables_filter {
+            input.input_search {
+                width: auto;
+                padding-right: 46px;
+            }
+        }
+    }
+
+    .pages_count_wrapper {
+        visibility: hidden;
+    }
+}
